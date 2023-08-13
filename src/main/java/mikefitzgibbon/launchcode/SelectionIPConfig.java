@@ -4,12 +4,12 @@ import static mikefitzgibbon.launchcode.Frame.frame;
 
 public class SelectionIPConfig extends Button{
     public SelectionIPConfig(){
-        super("IPConfig");
+        super("Console");
     }
     
     @Override
     public void buttonAction(){
-        frame.setPanel(new IPConfigPanel());
+        frame.setPanel(new ConsolePanel());
         frame.setVisible(true);
     }
 }
